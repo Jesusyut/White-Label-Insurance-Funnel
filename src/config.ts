@@ -1,0 +1,20 @@
+export const CONFIG = {
+  agencyName: "Desert Shield Insurance",
+  logoText: "DS",
+  primaryColor: "#0e5f59",
+  accentColor: "#f4a261",
+  phoneDisplay: "(602) 555-0147",
+  phoneRaw: "+16025550147",
+  webhookUrl: "",
+  calendarUrl: "",
+  carriersCompared: 12,
+  affinityOptions: ["Veteran / Military", "Teacher", "First responder", "Nurse / Healthcare", "None"],
+  vehicleMakes: ["Toyota","Honda","Ford","Chevrolet","Nissan","Hyundai","Kia","Jeep","Subaru","Mazda","Volkswagen","BMW","Mercedes-Benz","Lexus","GMC","Ram","Dodge","Tesla","Audi","Volvo"],
+  copy: {
+    eyebrow: "QUICK QUOTE · ABOUT 2 MINUTES",
+    trust: "Free quotes · Secure form · No obligation",
+    introTitle: "Let’s find you a better auto insurance rate.",
+    introBody: "First, where do you park your car at night?",
+    consent: "I agree to be contacted by {agency} by call or text at the number provided, including automated messages, about my quote. Consent isn't required to buy. Msg/data rates may apply. Reply STOP to opt out.",
+  },
+} as const;
