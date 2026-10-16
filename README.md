@@ -34,6 +34,6 @@ When no webhook is configured—or when it is unreachable—the full submission 
 1. Push this folder to a Git repository.
 2. In Render, choose **New → Blueprint** and select the repository.
 3. Render reads `render.yaml`, runs the production build, and publishes the static site.
-4. After deployment, replace the `metadataBase` URL in `app/layout.tsx` with the final Render domain for accurate social previews.
+4. The included metadata is configured for `https://white-label-insurance-funnel.onrender.com`.
 
 No backend or environment variables are required.
